@@ -1,0 +1,19 @@
+[project]
+name = "product"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cryptography>=45.0.6",
+    "fastapi>=0.116.1",
+    "google-generativeai>=0.8.5",
+    "marker-pdf[full]==1.8.3",
+    "openai-agents[litellm,voice]>=0.2.4",
+    "pydantic[email]>=2.11.7",
+    "pymysql>=1.1.1",
+    "pypandoc>=1.15",
+    "reportlab>=4.4.3",
+    "sqlalchemy>=2.0.42",
+    "textblob>=0.19.0",
+]
